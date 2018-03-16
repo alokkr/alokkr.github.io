@@ -44,11 +44,13 @@ section{overflow: auto;}
 .static-banner{
 	background-image: url(../images/woods-banner.png);
 	height: 500px;
+	background-color: #E9EDF0;
 }
 .static-banner1{
 	background-image: url(../images/vd-banner.png);
 	height: 500px;
 	background-size: cover;
+	background-color: #E9EDF0;
 }
 
 .color-banner
