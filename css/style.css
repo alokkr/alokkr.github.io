@@ -33,9 +33,22 @@ section{overflow: auto;}
 	max-width: 700px;
 	margin: 0 auto;
 }
+.container-img{
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.container-img img{
+	width: 100%;
+	}
 .static-banner{
 	background-image: url(../images/woods-banner.png);
 	height: 500px;
+}
+.static-banner1{
+	background-image: url(../images/vd-banner.png);
+	height: 500px;
+	background-size: cover;
 }
 
 .color-banner
@@ -168,4 +181,9 @@ position: relative;
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
+}
+.blankspace hr{
+	margin-top: 40px;
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
 }
