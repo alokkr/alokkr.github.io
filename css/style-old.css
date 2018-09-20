@@ -1,6 +1,6 @@
 html, body{
 	margin: 0 0;
-	/*font-family: arial sans-serif;*/
+	font-family: arial sans-serif;
 	padding: 0 0;
 }
 .clearfix{clear: both;}
@@ -9,19 +9,9 @@ section{overflow: auto;}
     font-family: avenir;
     src: url(font/Avenir.ttc);
 }
-h1, h2, p, a{
+h1, h2, p{
 	font-family: avenir;
 	/*font-weight: bold;*/
-}
-a{  
-	text-decoration: none;
-    outline: 0;
-    color: #000;
-    font-size: 15px;
-}
-a:hover{
-	text-decoration: underline;
-	color: #11ABB0;
 }
 .container-banner{
 	width: 85%;
@@ -37,37 +27,15 @@ a:hover{
 	font-size: 15px;
 	margin: 65px 0px 20px;
 	font-weight: 300;
-	line-height: 24px;
 }
 .container{
 	width: 80%;
 	max-width: 700px;
 	margin: 0 auto;
 }
-.container-img{
-	width: 80%;
-	max-width: 800px;
-	margin: 0 auto;
-}
-.container-img img{
-	width: 100%;
-	}
 .static-banner{
-	background-image: url(../images/woods-banner.png);
+	background-image: url(images/woods-banner.png);
 	height: 500px;
-	background-color: #E9EDF0;
-}
-.static-banner1{
-	background-image: url(../images/vd-banner.png);
-	height: 500px;
-	background-size: cover;
-	background-color: #E9EDF0;
-}
-.static-banner2{
-	background-image: url(../images/aar-banner.png);
-	height: 500px;
-	background-size: cover;
-	background-color: #E9EDF0;
 }
 
 .color-banner
@@ -81,7 +49,7 @@ animation:myfirst 30s linear infinite;
 -o-animation:myfirst 30s linear infinite; /* Opera */
 position: relative;
 }
-.color-banner:after {background-image: url(../images/grid.png);
+.color-banner:after {background-image: url(images/grid.png);
   background-repeat: repeat; 
   content: '';
 	display: block;
@@ -131,10 +99,9 @@ position: relative;
 	margin: 10px 0px;
 }
 .logo_holder{
-	margin:20px 60px 30px;
+	margin:20px 60px 100px;
 	width: 82px;
 	height: 26px;
-	display: block;
 }
 .logo_holder img{
 	width:100%;
@@ -145,7 +112,7 @@ position: relative;
 	font-weight: bold;
 }
 .main p{
-	font-size: 16px;
+	font-size: 19px;
 	line-height: 30px;
 	font-weight:300;
 }
@@ -153,17 +120,13 @@ position: relative;
 	width: 100%;
 	height: 80px;
 }
-.blankspace-sm{
-	width: 100%;
-	height: 20px;
-}
 .col-md-6{
 	width: 50%;
 	float: left;
 }
 .col-md-6 .project_img{
 	width: 100%;
-	/*height: 198px;*/
+	height: 198px;
 }
 .project_img img{
 	width: 100%;
@@ -175,7 +138,7 @@ position: relative;
 	font-size: 15px;
 }
 .col-md-6 h2, p{
-	/*margin: 0;*/
+	margin: 0;
 }
 
 .woods h3{
@@ -183,18 +146,10 @@ position: relative;
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #00867B;
-
 }
 .woods .caption{
 	font-size: 32px;
-	margin: 20px 0 25px;
-	line-height: 40px;
-}
-.sub-head{
-	font-size: 27px;
 	margin-bottom: 30px;
-	font-weight: bold !important;
-	margin-top: 40px;
 }
 .woods .desc{
 	font-size: 16px;
@@ -203,7 +158,7 @@ position: relative;
 .full-img img{
 	width: 100%;
 }
-.woods ul li, ol li{
+ul li{
 	font-family: avenir;
 	font-size: 16px;
 	margin: 7px 0px;
@@ -212,33 +167,4 @@ position: relative;
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
-}
-.blankspace hr{
-	margin-top: 40px;
-	border-top: 1px dashed #8c8b8b;
-	border-bottom: 1px dashed #fff;
-}
-
-.profile{
-	float: right;
-}
-.profile img {
-  width: 300px;
-  margin: 20px;
-  
-}
-
-.clip-circle {
-  clip-path: circle(150px at center);
-  background: red;
-}
-.footer{
-	width: 100%;
-	padding: 20px;
-	background-color: #F4F4F4;
-	text-align: center;
-}
-.footer p{
-	font-size: 12px; 
-	color:#999;
 }
