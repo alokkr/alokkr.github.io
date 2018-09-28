@@ -227,6 +227,7 @@ background-repeat: no-repeat;
 	padding: 20px;
 	background-color: #F4F4F4;
 	text-align: center;
+	box-sizing: border-box;
 }
 .footer p{
 	font-size: 12px; 
