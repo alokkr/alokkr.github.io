@@ -22,6 +22,18 @@ a{
     color: #000;
     font-size: 15px;
 }
+p::selection {
+  background: #B8E986; /* WebKit/Blink Browsers */
+}
+p::-moz-selection {
+  background: #B8E986; /* Gecko Browsers */
+}
+h2::selection, h1::selection, h3::selection, li::selection, br::selection, span::selection {
+  background: #B8E986; /* WebKit/Blink Browsers */
+}
+h2::-moz-selection {
+  background: #B8E986; /* Gecko Browsers */
+}
 /*a:hover{
 	text-decoration: underline;
 	color: #11ABB0;
@@ -122,6 +134,7 @@ background-repeat: no-repeat;
 .title-heavy{
 	font-size: 89px;
 	margin: 10px 0px;
+	font-weight: 400;
 }
 .logo_holder{
 	margin:20px 60px 30px;
@@ -244,7 +257,14 @@ background-repeat: no-repeat;
 a:hover h2 .link-highlight{
 	box-shadow: inset 0 -1.2em 0 #B8E986;
 }
-
+.social-ic span{
+	margin:0 10px;
+	box-shadow: inset 0 -0.5em 0 #95e8ed;
+    transition: box-shadow .2s ease-in-out;
+}
+.social-ic a:hover span{
+	box-shadow: inset 0 -1.2em 0 #B8E986;
+}
 
 @media only screen and (max-width: 600px) {
     .col-md-6{
